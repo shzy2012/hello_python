@@ -7,7 +7,10 @@ freq ={}
 for w in words:
     freq[w] = freq.get(w,0.0) + 1.0
 
-print(sorted(freq))
+total = sum(freq.values())
 
+print(total)
+# 对字典进行排序
+# s = sorted(freq.items(),key=lambda x:x[1],reverse=True)
+# print(s)
 
-   
