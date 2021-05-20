@@ -1,3 +1,4 @@
+#coding=utf-8
 
 dic = {'k1':'v1','k2':'v2'}
 
@@ -30,3 +31,6 @@ for key,value in dic.items():
 
 # 取出k1,并从字典中删除k1
 dic.pop('k1')
+
+# 清空字典
+dic.clear()
